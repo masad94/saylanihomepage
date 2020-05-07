@@ -1,0 +1,583 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Open Sans',sans-serif;
+}
+
+
+html,body{
+    background-color:ghostwhite;
+    margin: 0;
+    padding: 0;
+}
+#top{
+    margin: 0px;
+    width: 100%;
+    background-color: RGB(65, 105, 225);
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    line-height: 2em;
+}
+
+.icon-bar{
+    position: relative;
+    width: 300px;
+    bottom: 7px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.top-para{
+    margin: 0;
+    display: inline-block;
+}
+
+.top-button{
+    width: 300px;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.icon-bar a{
+    color:white;
+    padding:15px;
+    width: 20px;
+    height:30px;
+    transition: all 0.3s ease;
+}
+
+.whatsapp img{
+    position: relative;
+    top: 1em;
+    height: 20px;
+}
+
+.icon-bar a:hover{
+    background-color: RGB(93, 126, 225);
+    
+}
+
+#top p{
+    position: relative;
+    display: inline-block;
+    bottom: 7px;
+    font-size: 15px;
+}
+
+.top-buttons{   
+    position: relative;
+    left:50px;
+    font-size: 10px;
+    border: 1px solid green;
+    background-color: white;
+    padding:8px; 
+    color:green;
+    bottom: 7px;
+    cursor: pointer;
+}
+
+
+#nav{
+    font-size: 0.9em;
+    width:100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align:center;
+    display: inline-block;
+    color: black;
+    background-color:ghostwhite;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+
+
+#logo{
+    position: relative;
+    width: 20%;
+    margin: 0px;
+    text-align: left;
+    display: inline-block;
+
+}
+
+#logo img{
+    margin: 0px;
+    width:150px;
+    padding-bottom: 7px;
+}
+
+#nav>ul{
+    widows: 55% ;
+    margin: 0px;
+    position: relative;
+    bottom: 15px;
+    text-align: right;
+    display: inline-block;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+#nav>ul>li{
+    display: inline;
+}
+
+#nav>ul>li>a{
+    color:black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding:8px 16px;
+    cursor: pointer;
+}
+
+#nav a:visited,a:active{
+    color: black;
+}
+
+#nav a:hover{
+    padding: 8px 16px;
+    color:white;
+    background-color: RGB(65, 105, 225);
+    transition: all 0.3s ease-in;
+}
+
+
+.selected{
+    color: white;
+    padding: 8px 16px;
+    background-color: RGB(65, 105, 225);
+    border-radius: 30px;
+}
+
+#slider{
+    position: static;
+    text-align: center;
+}
+#slider img{
+    width: 100%;
+}
+
+#intro-marq{
+    width: 80%;
+    color:white;    
+    font-size:0.8em;
+    height: 20px;
+    margin-top: 5px;
+    background-color: RGB(65, 105, 225);
+    font-family: 'Merriweather', serif;
+}
+
+#intro{
+    position: static;
+    text-align: center;
+    top: 0px;
+    margin: 0;
+    width: 100%;
+    padding:10px 0 50px 0;
+    background-color:ghostwhite;
+}
+
+#intro h1{
+    padding: 16px;
+    color: green;  
+    font-family: 'Merriweather', serif;
+}
+
+#intro span{
+    color: RGB(65, 105, 225);
+    font-family: 'Merriweather', serif;
+}
+
+.logo-img{
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+}
+
+.logo-img::after{
+    content: "";
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+    background-color:green;
+}
+
+.logo-img::before{
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+    background-color: green;
+}
+
+#intro p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 10px;
+    line-height: 2em;
+    color:gray;    
+}
+
+#numbers{
+    width: 100%;
+    background-color: RGB(65, 105, 225);
+    text-align: center;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.grid{
+    padding: 30px 0px;
+    display: inline-block;
+    width:220px;
+}
+
+.grid img{
+    width: 45px;
+    padding: 10px 0 5px 0;
+}
+
+.num{
+    font-size: 3em;
+    padding: 5px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.grid-p{
+    padding: 5px 0 5px 0;
+    font-size: 0.9em;
+    font-family: 'Playfair Display', serif;
+}
+
+.grid-span{
+    color: #00ff00;
+    font-family: 'Playfair Display', serif;
+}
+
+#work{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    background-color:ghostwhite;
+}
+
+#work h1{
+    padding: 16px;
+    color: green;  
+    font-family: 'Merriweather', serif;
+}
+
+#work span{
+    color: RGB(65, 105, 225);
+    font-family: 'Merriweather', serif;
+}
+
+.card{
+    margin: 20px;
+    width: 250px;
+    padding: 40px;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.16);
+    display: inline-block;
+}
+
+.card h2{
+    padding-top: 5px;
+    color: RGB(65, 105, 225);
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+}
+
+.card img{
+    padding:5px;
+    width: 50px;
+}
+
+#mission{
+    padding-top: 30px;
+    width: 100%;
+    text-align:center;
+    background-color: white;
+}
+
+#projects{
+    width: 600px;
+    display: inline-block;
+    text-align: left;
+}
+
+#projects h2{
+    position: relative;
+    color: RGB(65, 105, 225);
+    padding-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+#projects h2::after{
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: green;
+}
+
+#events{
+    width: 230px;
+    display: inline-block;
+    margin:0px;
+}
+
+
+#events h2{
+    position: relative;
+    margin-top: 50px;
+    color: RGB(65, 105, 225);
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+#events h2::after{
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: green;
+}
+
+#event-marq{
+    width: 200px;
+    height: 200px;
+    font-size: 0.9em;
+    columns: #666666;
+    line-height: 1.7;
+}
+
+.mq-span{
+    color:blue;
+    cursor: pointer;
+}
+
+.project{
+    display: inline-block;
+    width: 230px;
+    padding: 20px;
+    margin: 25px 25px 25px 0;
+    border:1px solid #eeeeee;
+    background-color: #f7f8fa;
+
+}
+
+@media only screen and (max-width: 660px){
+    .project{
+        display: block;
+        margin: 25px 25px 25px 35px;
+    }
+    #projects{
+        width: 100%;
+    }
+
+    #projects h2{
+        margin-left: 35px;
+    }
+    .card{
+        width:220px;
+    }
+
+    .section{
+        display: block;
+    }
+
+    #useful{
+        margin-top: 150px;
+    }
+}
+
+
+hr{
+    border-width: 0.8px;
+    border-color: #eeeeee;
+}
+
+.project img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.project h3{
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+    padding-left: 10px;
+    color: RGB(65, 105, 225);
+}
+
+#img-gallery{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding:30px 0 50px 0;
+    background-color: white;
+}
+
+#img-gallery h1{
+    padding: 20px;
+    color: green;  
+    font-family: 'Merriweather', serif;
+}
+
+#img-gallery span{
+    color: RGB(65, 105, 225);
+    font-family: 'Merriweather', serif;
+}
+
+.gallery {
+    margin: 1px;
+    display: inline-block;
+    width: 200px;
+}
+
+.gallery img {
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+}
+
+#footer{
+    text-align: center;
+    width: 100%;
+    padding:50px 0 50px 0;
+    background-color: #333333;
+    color: white;
+}
+
+.section{
+    width: 320px;
+    text-align: left;
+    display: inline-block;
+}
+
+.section p{
+    color: gainsboro;
+    font-size: 0.8em;
+}
+
+.section ul{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.section li{
+    color:gainsboro;
+}
+
+.fa-phone,.fa-globe,.fa-envelope-o{
+    color:green;
+    padding: 5px;
+}
+
+
+#useful{
+    display: inline-block;
+    position: relative;
+    top:-150px;
+}
+
+#useful h3{
+    position: relative;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#useful hr{
+    border-width: 0.2px;
+    border-color: gainsboro;
+}
+
+#useful h3::after{
+bottom: -2px;
+content: "";
+height: 2px;
+left: 0;
+position: absolute;
+width: 50px;
+background: green;
+}
+
+
+#connect a{
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 10px 2px 0;
+    width: 30px;
+    color:white;
+    padding:10px;
+    border-radius: 50%;
+    background-color:#316DC3;
+}
+
+#connect{
+    position: relative;
+    top:-130px;
+    display: inline-block;
+    padding-top: 20px;   
+    margin-left: 15px;
+}
+
+#connect h3{
+    font-family: 'Merriweather', serif;
+    font-size: 0.9em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#copyright{
+    background-color: RGB(65, 105, 225);
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#copy{
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#gototop{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 20px;
+    opacity: 0.5;
+}
